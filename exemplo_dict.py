@@ -1,6 +1,7 @@
 import json
+from typing import Dict, Optional, Any
 
-produto_01: dict = {
+produto_01: Dict[str, Any] = {
     "nome": "Sapato",
     "quantidade": 39,
     "preco": 10.38,
